@@ -3,8 +3,8 @@
 
 [![IEEE Xplore](https://img.shields.io/badge/Accepted-IEEE%20Access-%2300629B%09)](https://ieeexplore.ieee.org/abstract/document/10288431)
 
-**OpenMAP-T1: A Rapid Deep-Learning Approach to Parcellate 280 Anatomical Regions to Cover the Whole Brain**<br>
-**Author**: Kei Nishimaki, Kumpei Ikuta, [Kenichi Oishi](https://www.hopkinsmedicine.org/profiles/details/kenichi-oishi), [Hitoshi Iyatomi](https://iyatomi-lab.info/english-top).<br>
+**PCSS: Skull Stripping With Posture Correction From 3D Brain MRI for Diverse Imaging Environment**<br>
+**Author**: Kei Nishimaki, Kumpei Ikuta, Shingo Fujiyama, [Kenichi Oishi](https://www.hopkinsmedicine.org/profiles/details/kenichi-oishi), [Hitoshi Iyatomi](https://iyatomi-lab.info/english-top).<br>
 
 Department of Applied Informatics, Graduate School of Science and Engineering, Hosei University, Tokyo, Japan <br>
 The Russell H. Morgan Department of Radiology and Radiological Science, The Johns Hopkins University School of Medicine, Baltimore, MD, USA <br>
@@ -13,6 +13,12 @@ The Russell H. Morgan Department of Radiology and Radiological Science, The John
 
 Paper: https://ieeexplore.ieee.org/abstract/document/10288431<br>
 Submitted for publication in the **IEEE Access**<br>
+
+We recommend that you also check out the following studies related to ours.<br>
+OpenMAP-T1 provides a more robust skull-stripping mask and 280 anatomical parcellation map.<br>
+Nishimaki et al. "[OpenMAP-T1: A Rapid Deep-Learning Approach to Parcellate 280 Anatomical Regions to Cover the Whole Brain
+Author](https://github.com/OishiLab/OpenMAP-T1)"
+
 
 ## Installation Instructions
 0. install python and make virtual environment<br>
@@ -70,7 +76,7 @@ You can get the pretrained model from the this link.
 [Link of pretrained model](https://drive.google.com/drive/folders/1FIdfFGf3FJ3CR1pMTYmd47IW_gMZox42?usp=sharing)
 
 ## FAQ
-* **How much GPU memory do I need to run OpenMAP-T1?** <br>
+* **How much GPU memory do I need to run PCSS?** <br>
 We ran all our experiments on NVIDIA RTX3090 GPUs with 24 GB memory. For inference you will need less, but since inference in implemented by exploiting the fully convolutional nature of CNNs the amount of memory required depends on your image. Typical image should run with less than 4 GB of GPU memory consumption. If you run into out of memory problems please check the following: 1) Make sure the voxel spacing of your data is correct and 2) Ensure your MRI image only contains the head region.
 
 * **Will you provide the training code as well?** <br>
