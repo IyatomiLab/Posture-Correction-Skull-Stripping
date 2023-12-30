@@ -33,7 +33,7 @@ https://pytorch.org/
 
 Once you select your environment, the required commands will be displayed.
 
-<img width="485" alt="image" src="https://github.com/OishiLab/OpenMAP-T1-V1/assets/64403395/eb092ff6-6597-4237-ac3a-aa0695bff631">
+<img width="411" alt="image" src="https://github.com/IyatomiLab/Posture-Correction-Skull-Stripping/assets/64403395/00a14b9a-2b5f-4b77-9479-67bf020ceeae">
 
 If you want to install an older Pytorch environment, you can download it from the link below.<br>
 https://pytorch.org/get-started/previous-versions/
